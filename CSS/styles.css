@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: poppins;
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 50px 30px 50px;
+}
+.card-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: lightslategray;
+}
+
+.card-img{
+    width: 75px;
+    height: 75px;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-top: 15px;
+}
+.card-body{
+    font-size: .9rem;
+    text-align: center;
+    margin: 10px 30px 30px 30px;
+    line-height: 20px;
+}
+.card-link{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px black solid;
+}
